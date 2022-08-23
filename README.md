@@ -79,9 +79,6 @@ If you want to say **thank you** or/and support active development of DKMUSIC:
 - Fork the Repo :)
 - Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
 
-PS: You can buy me a coffee too :)
-<p><a href="https://www.buymeacoffee.com/notreallysy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
-
 Together, we can make 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 **better**!
 
 
@@ -93,7 +90,7 @@ For a full list of all authors and contributors, see [the contributors page](htt
 
 ## ⚠️ Security
 
-Bhartimusic follows good practices of security, but 100% security cannot be assured. Bhartimusic is provided **"as is"** without any **warranty**. Use at your own risk.
+𝐃𝐤𝐦𝐮𝐬𝐢𝐜 follows good practices of security, but 100% security cannot be assured. Dkmusic is provided **"as is"** without any **warranty**. Use at your own risk.
 
 For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
 
