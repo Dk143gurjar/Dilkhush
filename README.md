@@ -32,8 +32,8 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 ### Before deploying 𝐃𝐊𝐌𝐔𝐒𝐈𝐂, please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
 
-> If you want to start working with BHARTIMUSIC you can either fork or import repo .
-> The official [documentation site](https://notreallyshikhar.gitbook.io/bhartimusic/) contains a lot of information. The best place to start is from the deployment section.
+> If you want to start working with DKMUSIC you can either fork or import repo .
+> The official [documentation site](https://notreallyshikhar.gitbook.io/DILKHUSH/) contains a lot of information. The best place to start is from the deployment section.
 > If you'd like to talk to us, join us on our [Telegram Group](https://t.me/DAUSA_123)
 
 
@@ -84,7 +84,7 @@ Together, we can make 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 **better**!
 
 ## 👨🏻‍💻 Authors & contributors
 
-The original setup of this repository is by [Dk143Gurjar](https://github.com/Dilkhush).
+The original setup of this repository is by [https://t.me/Dk143gurjar](https://github.com/Dilkhush).
 
 For a full list of all authors and contributors, see [the contributors page](https://github.com/Dk143gurjar/Dilkhush/contributors).
 
