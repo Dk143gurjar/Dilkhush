@@ -11,40 +11,51 @@
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.8+ or 3.7
+- Python 3.8+ or 3.9
+
+# 🔗 An Overview
+
+Here's a brief high-level overview of the Yukki Music Bot:
+
+This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
+
+* For database, 𝐃𝐊 𝐌𝐔𝐒𝐈𝐂 uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
+* Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
+* The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
+* The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
+
+For more information on the technologies that power the Yukki Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/bhartimusic/).
 
 
-🧪 ɢᴇᴛ SESSION_NAME ꜰʀᴏᴍ ʜᴇʀᴇ:
 
-[@Dkmusic5bot](https://t.me/YukkiStringBot)
+# ⚡️ Getting Started
 
+### Before deploying 𝐃𝐊𝐌𝐔𝐒𝐈𝐂, please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
 
-
-
-## ᴄᴏᴍᴍᴀɴᴅꜱ 
-
-[CLICK HERE](https://t.me/Dk_music_shayari/38)
+> If you want to start working with BHARTIMUSIC you can either fork or import repo .
+> The official [documentation site](https://notreallyshikhar.gitbook.io/bhartimusic/) contains a lot of information. The best place to start is from the deployment section.
+> If you'd like to talk to us, join us on our [Telegram Group](https://t.me/DAUSA_123)
 
 
-## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
+## 🖇 Prerequisites
 
-- **ᴘʟᴀʏ ᴍᴜꜱɪᴄ ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛꜱ!** (ꜱᴜᴘᴘᴏʀᴛꜱ ᴍᴜʟᴛɪᴘʟᴇ ɢʀᴏᴜᴘꜱ)
-- **ꜱᴜᴘᴘᴏʀᴛꜱ Qᴜᴇᴜᴇꜱ!**
-- **ᴄᴏɴᴛʀᴏʟ ʙʏ ʙᴜᴛᴛᴏɴꜱ ᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ**
-- **ꜱᴇᴀʀᴄʜ ꜰᴏʀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏꜱ ɪɴʟɪɴᴇ!**
-- **ᴅᴏᴡɴʟᴏᴀᴅ ʏᴛ ꜱᴏɴɢꜱ ʙʏ ɪᴛ'ꜱ ɴᴀᴍᴇ!**
-- **ᴅᴏᴡɴʟᴏᴀᴅ ʏᴛ ᴠɪᴅᴇᴏꜱ ʙʏ ɪᴛ'ꜱ ɴᴀᴍᴇ!**
-- **ᴀꜱꜱɪꜱᴛᴀɴᴛ ʟɪᴋᴇ ᴜꜱᴇʀʙᴏᴛ**
-- **ɢᴇᴛ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ʟɪɴᴋ!** (ᴘᴜʙʟɪᴄ ɢʀᴏᴜᴘꜱ ᴏɴʟʏ )
-- **ɢᴇᴛ ʟʏʀɪᴄꜱ ᴏꜰ ʏᴏᴜʀ ꜱᴏɴɢ!**
-- **ʙᴀɴ / ᴜɴʙᴀɴ ᴜꜱᴇʀꜱ ᴀɴᴅ ᴄʜᴇᴄᴋ ᴜꜱᴇʀ ꜱᴛᴀᴛᴜꜱ.**
-- **ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴍᴇꜱꜱᴀɢᴇꜱ**
-- **ᴀɪ**
-- **ᴄᴏᴏʟ ꜱᴛᴀʀᴛꜱ ᴘʟᴜɴɢɪɴꜱ**
-- **ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ ᴇᴀꜱɪʟʏ**
+> In order to avoid conflicts in your project, you must have/installed
 
-## 🔎 ꜱᴜᴘᴘᴏʀᴛ ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ
+- [Python3.9](https://www.python.org/downloads/release/python-390/)
+- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
+- [Telegram Bot Token](https://t.me/botfather)
+- [MongoDB URI](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
+- [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
 
+
+## 🖇 Generating Pyrogram String Session
+
+- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
+
+- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/YukkiStringBot)
+
+
+## 🖇 Heroku
 ### Deploy To Railway
 
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Dk143gurjar/Dilkhush&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION,OWNER_USERNAME,SUPPORT_CHANNEL,SUDOUSER,MONGO_DB,SUPPORT_GROUP)
@@ -60,3 +71,48 @@
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
 <a href="https://t.me/Education_quiz_hub"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Dk_music_shayari"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
+## 🎗 Project assistance
+
+If you want to say **thank you** or/and support active development of DKMUSIC:
+
+- Add a [GitHub Star](https://github.com/DK143GURJAR/DILKHUSH) to the project.
+- Fork the Repo :)
+- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
+
+PS: You can buy me a coffee too :)
+<p><a href="https://www.buymeacoffee.com/notreallysy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a></p>
+
+Together, we can make 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 **better**!
+
+
+## 👨🏻‍💻 Authors & contributors
+
+The original setup of this repository is by [DKMUSIC](https://github.com/Dilkhush).
+
+For a full list of all authors and contributors, see [the contributors page](https://github.com/Dk143gurjar/Dilkhush/contributors).
+
+## ⚠️ Security
+
+Bhartimusic follows good practices of security, but 100% security cannot be assured. Bhartimusic is provided **"as is"** without any **warranty**. Use at your own risk.
+
+For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
+
+
+## 🗂 License
+
+This project is licensed under the **GNU General Public License v3**. All designs were created by [@NotReallyShikhar](https://github.com/NotReallyShikhar) .
+
+See [LICENSE](../LICENSE) for more information.
+
+## 📑 Acknowledgement
+
+Special thanks to these amazing projects/people which/who help power 𝐃𝐊𝐌𝐔𝐒𝐈𝐂:
+
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
+- [CallsMusic Team](https://github.com/Callsmusic)
+- [TheHamkerCat](https://github.com/TheHamkerCat)
+- [Charon Baglari](https://github.com/XCBv021)
+
+
+Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
