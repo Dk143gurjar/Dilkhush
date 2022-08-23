@@ -84,7 +84,7 @@ Together, we can make 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 **better**!
 
 ## 👨🏻‍💻 Authors & contributors
 
-The original setup of this repository is by [DKMUSIC](https://github.com/Dilkhush).
+The original setup of this repository is by [Dk143Gurjar](https://github.com/Dilkhush).
 
 For a full list of all authors and contributors, see [the contributors page](https://github.com/Dk143gurjar/Dilkhush/contributors).
 
