@@ -82,12 +82,6 @@ If you want to say **thank you** or/and support active development of DKMUSIC:
 Together, we can make 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 **better**!
 
 
-## 👨🏻‍💻 Authors & contributors
-
-The original setup of this repository is by [https://t.me/Dk143gurjar](https://github.com/Dilkhush).
-
-For a full list of all authors and contributors, see [the contributors page](https://github.com/Dk143gurjar/Dilkhush/contributors).
-
 ## ⚠️ Security
 
 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 follows good practices of security, but 100% security cannot be assured. Dkmusic is provided **"as is"** without any **warranty**. Use at your own risk.
