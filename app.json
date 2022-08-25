@@ -1,7 +1,7 @@
 {
     "name": "Dk music bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg",
+    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
     "keywords": [
     "python3",
     "telegram",
