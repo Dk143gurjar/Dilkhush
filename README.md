@@ -10,7 +10,7 @@
     <a href="https://github.com/Dk143gurjar/Dilkhush/commits/prince"> <img src="https://img.shields.io/github/last-commit/Dk143gurjar/Dilkhush?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Dk143gurjar/Dilkhush/issues"> <img src="https://img.shields.io/github/issues/Dk143gurjar/Dilkhush?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/Dk143gurjar/Dilkhush/network/members"> <img src="https://img.shields.io/github/forks/Dk143gurjar/Dilkhush?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/Pythone?color=yellow&label=Python&logo=Python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 > ⭐️ Thanks to everyone for using Dk music Server, That is the greatest pleasure we have !
@@ -20,7 +20,7 @@
 ## Features ❤️”®
 
 - Gban Added By [Me](https://t.me/Dk143gurjar)
-- Automatically Thambnail Generator By [Team Yukki](https://github.com/TeamYukki)
+- Automatically Thambnail Generator By [Team Yukki](https://github.com/Dk143gurjar)
 - Customize Button Added [Me](https://t.me/Dk143gurjar)
 - Channel Stream Added 
 
