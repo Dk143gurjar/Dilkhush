@@ -19,7 +19,6 @@ Here's a brief high-level overview of the Yukki Music Bot:
 
 This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
 
-* For database, 𝐃𝐊 𝐌𝐔𝐒𝐈𝐂 uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
 * Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
 * The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
 * The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
@@ -44,7 +43,6 @@ For more information on the technologies that power the Yukki Music Bot, check o
 - [Python3.9](https://www.python.org/downloads/release/python-390/)
 - [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
 - [Telegram Bot Token](https://t.me/botfather)
-- [MongoDB URI](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
 - [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
 
 
@@ -52,13 +50,13 @@ For more information on the technologies that power the Yukki Music Bot, check o
 
 - Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
 
-- Generate a Pyrogram String Session via [Telegram String Generation Bot](https://t.me/YukkiStringBot)
+- Generate a Pyrogram String Session via [Telegram String Generation Bot](Any bots)
 
 
 ## 🖇 Heroku
 ### Deploy To Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Dk143gurjar/Dilkhush&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION,OWNER_USERNAME,SUPPORT_CHANNEL,SUDOUSER,MONGO_DB,SUPPORT_GROUP)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Dk143gurjar/Dilkhush&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION,OWNER_USERNAME,SUPPORT_CHANNEL,SUPPORT_GROUP)
 
 
 ### Deploy To Heroku
