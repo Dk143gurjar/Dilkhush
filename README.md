@@ -82,7 +82,7 @@ For more information and to report security issues, please refer to our [`SECURI
 
 ## 🗂 License
 
-This project is licensed under the **MIT General Public License v3**. All designs were created by [@NotReallyShikhar](https://github.com/NotReallyShikhar) .
+This project is licensed under the **MIT License v3**. All designs were created by [@Dk143gurjar](https://github.com/Dk143gurjar) .
 
 See [LICENSE](../LICENSE) for more information.
 
