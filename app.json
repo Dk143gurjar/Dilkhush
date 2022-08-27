@@ -31,7 +31,11 @@
           
        
         "OWNER_USERNAME": {
-          "description": "PUT UR USERNAME HERE WITHOU @ LIKE DK143GURJAR",
+          "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
+          "required": true
+        },
+        "SUDO_USERS": {
+          "description": "PUT UR TELEGRAM ID HERE GET IT FROM @ALICIAOP_BOT",
           "required": true
         },
         "STRING_SESSION": {
