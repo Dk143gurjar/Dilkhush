@@ -2,7 +2,7 @@
 
 Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
 
-### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
+### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/Dilkhush/config-vars/available-vars)
 
 ## Mandatory Vars
 
@@ -11,11 +11,10 @@ Config vars are basically the variables which configure or modify bot to functio
 1. `API_ID` : Get it from my.telegram.org 
 2. `API_HASH`  : Get it from my.telegram.org 
 3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
-7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+4. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
+5. `MUSIC_BOT_NAME` : A name for your Music bot.
+6. `OWNER_ID` : Your Owner ID for managing your bot.
+7. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
 
 
 ## Non-Mandatory Vars
@@ -24,12 +23,11 @@ Config vars are basically the variables which configure or modify bot to functio
 
 1. `DURATION_LIMIT` : Custom max audio(music) duration for voice chat. Default to 60 mins.
 2. `SONG_DOWNLOAD_DURATION_LIMIT`  : Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins.
-3. `VIDEO_STREAM_LIMIT` : Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram. Default to 3 chats.
-4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
-5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
-6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
-7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
+3. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
+4. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
+5. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
+6. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
+7. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
 
 ## Play FileSize Limit Vars
 
@@ -37,7 +35,6 @@ Config vars are basically the variables which configure or modify bot to functio
 > You can convert mb into bytes from https://www.gbmb.org/mb-to-bytes and use it here 
 
 1. `TG_AUDIO_FILESIZE_LIMIT` : Maximum file size limit for audio files which can be streamed over vc. Defaults to 104857600 bytes, i.e. 100MB
-2. `TG_VIDEO_FILESIZE_LIMIT` : Maximum file size limit for video files which can be played. Defaults to 1073741824 bytes, i.e. 1024MB or 1GB
 
 
 ## Bot Vars
@@ -72,9 +69,6 @@ Config vars are basically the variables which configure or modify bot to functio
 
 ### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
 
-1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
-2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
-
 
 ## Custom Repo Vars
 
@@ -86,11 +80,10 @@ Config vars are basically the variables which configure or modify bot to functio
 4. `GITHUB_REPO` : Your Github Repo url, that will be shown on /start command
 
 
-
 ## Images/Thumbnail Vars
 
 - You can change images which are used in Yukki Music Bot.
-- You can generate telegaph links from [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) and use it here.
+- You can generate telegaph links from Any teligraph bot and use it here.
 
 1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
 2. `PING_IMG_URL` : Image which comes on /ping command of bot.
@@ -98,19 +91,17 @@ Config vars are basically the variables which configure or modify bot to functio
 4. `GLOBAL_IMG_URL` : Image which comes on /stats command of bot. 
 5. `STATS_IMG_URL` : Image which comes on /stats command of bot. 
 6. `TELEGRAM_AUDIO_URL` : This image comes when someone plays audios from telegram. 
-7. `TELEGRAM_VIDEO_URL` : This image comes when someone plays videos from telegram. 
-8. `STREAM_IMG_URL` : his image comes when someone plays m3u8 or index links.
-9. `SOUNCLOUD_IMG_URL` : This image comes when someone plays music from soundcloud. 
-10. `YOUTUBE_IMG_URL` : This image comes if thumbnail generator fails to gen thumb anyhow.
-11. `SPOTIFY_ARTIST_IMG_URL` : This image comes when someone plays Spotify artist via link in inline mode. 
-12. `SPOTIFY_ALBUM_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
-13. `SPOTIFY_PLAYLIST_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
+7. `STREAM_IMG_URL` : his image comes when someone plays m3u8 or index links.
+8. `SOUNCLOUD_IMG_URL` : This image comes when someone plays music from soundcloud. 
+9. `YOUTUBE_IMG_URL` : This image comes if thumbnail generator fails to gen thumb anyhow.
+10. `SPOTIFY_ARTIST_IMG_URL` : This image comes when someone plays Spotify artist via link in inline mode. 
+11. `SPOTIFY_PLAYLIST_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
 
 ## Multi Assistant Mode
 
 - You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
 
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@Dkmusic5Bot](http://t.me/YukkiStringBot) in Telegram.
+2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@Dkmusic5Bot](http://t.me/YukkiStringBot) in Telegram.
+3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@Dkmusic5Bot](http://t.me/YukkiStringBot) in Telegram.
+4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@Dkmusic5Bot](http://t.me/YukkiStringBot) in Telegram.
