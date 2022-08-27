@@ -1,100 +1,103 @@
-<h2 align="centre"> Dk143gurjar </h2>
+<h1 align="center"><b>❤️ 𝗗𝗞 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 ❤️</b></h1>
 
-### 𝗗𝗞 𝗠𝗨𝗦𝗜𝗖 𝗜𝗦 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗧𝗢 𝗙𝗨𝗖𝗞 𝗠𝗨𝗦𝗜𝗖 𝗢𝗡 𝗧𝗚 𝗩𝗖......
+<h4 align="center">DK Music Is A Part Of DKMUSIC Bot Which Is A Powerful, Smart And Simple Bot To Play Audio In Telegram<br> ...All Credit Goes To Team Yukki...</h4>
 
-<p align="center"><a href="https://t.me/dk_music_shayari"><img src="https://te.legra.ph/file/5e31ae87791fdc24d74ae.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/DK143GURJAR"><img src="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg" width="400"></a></p>
+
 <p align="center">
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+    <a href="https://app.codacy.com/manual/Dk143gurjar/Dilkhush/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/Dk143gurjar/Dilkhush"> <img src="https://img.shields.io/github/repo-size/Dk143gurjar/Dilkhush?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Dk143gurjar/Dilkhush/commits/prince"> <img src="https://img.shields.io/github/last-commit/Dk143gurjar/Dilkhush?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Dk143gurjar/Dilkhush/issues"> <img src="https://img.shields.io/github/issues/Dk143gurjar/Dilkhush?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Dk143gurjar/Dilkhush/network/members"> <img src="https://img.shields.io/github/forks/Dk143gurjar/Dilkhush?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+</p>
+
+> ⭐️ Thanks to everyone for using Dk music Server, That is the greatest pleasure we have !
+
+### DK– History This Bot Is Clone On [Team yukki](https://github.com/TeamYukki)
+
+## Features ❤️”®
+
+- Gban Added By [Me](https://t.me/Dk143gurjar)
+- Automatically Thambnail Generator By [Team Yukki](https://github.com/TeamYukki)
+- Customize Button Added [Me](https://t.me/Dk143gurjar)
+- Channel Stream Added 
+
+# ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
 
-<h3>ʀᴇQᴜɪʀᴇᴍᴇɴᴛꜱ 📝</h3>
+<details>
+<summary><b>ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs</b></summary>
+<br>
+    
+- [ᴘʏᴛʜᴏɴ𝟹.𝟿](https://www.python.org/downloads/release/python-390/)
+- [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ᴋᴇʏ](https://docs.pyrogram.org/intro/setup#api-keys)
+- [ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ](https://t.me/botfather)
+- [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://t.me/StringGeneratorRobot)
+    
+</details>
 
-- FFmpeg
-- NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.8+ or 3.7
+<details>
+<summary><b>sᴛʀɪɴɢ sᴇssɪᴏɴ</b></summary>
+<br>
+    
+> ʏᴏᴜ'ʟʟ ɴᴇᴇᴅ ᴀ ᴀᴘɪ_ɪᴅ & ᴀᴘɪ_ʜᴀsʜ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴇssɪᴏɴ. 
+> ᴀʟᴡᴀʏs ʀᴇᴍᴇʙᴇʀ ᴛᴏ ᴜsᴇ ɢᴏᴏᴅ ᴀᴘɪ ᴄᴏᴍʙᴏ ᴇʟsᴇ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴄᴏᴜʟᴅ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ.
 
-# 🔗 An Overview
+<h4> ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ ᴠɪᴀ ᴛᴇʟᴇɢʀᴀᴍ sᴛʀɪɴɢ-ɢᴇɴ ʙᴏᴛ: </h4>    
+<p><a href="https://t.me/Pyrogram_String_Bot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+    
+</details>
 
-Here's a brief high-level overview of the 𝐃𝐊 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭:
+<details>
+<summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ</b></summary>
+<br>
 
-This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
-
-* Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
-* The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
-* The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
-
-For more information on the technologies that power the 𝐃𝐤 𝐌𝐮𝐬𝐢𝐜 𝐛𝐨𝐭, check out the [Docs](https://Dk143gurjar.gitbook.io//Dk143gurjar).
-
-
-
-# ⚡️ Getting Started
-
-### Before deploying 𝐃𝐊𝐌𝐔𝐒𝐈𝐂, please have a look towards [all available config vars](../config/README.md) , also please check [all available commands](../strings/command.yml) of the project.
-
-> If you want to start working with DKMUSIC you can either fork or import repo .
-> The official [documentation site](https://notreallyshikhar.gitbook.io/DILKHUSH/) contains a lot of information. The best place to start is from the deployment section.
-> If you'd like to talk to us, join us on our [Telegram Group](https://t.me/DAUSA_123)
-
-
-## 🖇 Prerequisites
-
-> In order to avoid conflicts in your project, you must have/installed
-
-- [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
-- [Telegram Bot Token](https://t.me/botfather)
-- [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
+> ʜᴇʀᴏᴋᴜ ʜᴀs ᴛᴡᴏ ᴠᴀʀs[ ʜᴇʀᴏᴋᴜ_ᴀᴘɪ_ᴋᴇʏ ] ғᴏʀ ᴜᴘᴅᴀᴛᴇʀ ᴛᴏ ᴡᴏʀᴋ. 
+> ʙʏ sᴇᴛᴛɪɴɢ ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʜᴇʀᴏᴋᴜ ᴀᴘᴘ, sᴇᴛ ᴠᴀʀ, ᴇᴅɪᴛ ᴠᴀʀ, ᴅᴇʟᴇᴛᴇ ᴠᴀʀs , ᴄʜᴇᴄᴋ ᴅʏɴᴏ ᴜsᴀɢᴇ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇ ʙᴏᴛ. 
+> ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ᴀʀᴇ ɴᴏᴛ ᴍᴀɴᴅᴀᴛᴏʀʏ, ʏᴏᴜ ᴄᴀɴ ʟᴇᴀᴠᴇ ᴛʜᴇᴍ ʙʟᴀɴᴋ ᴛᴏᴏ. 
+    
+<h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ʏᴜᴋᴋɪ ᴏɴ ʜᴇʀᴏᴋᴜ</h4>    
+<p><a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FDk143gurjar%2FDilkhush"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
+    
+</details>
 
 
-## 🖇 Heroku
-### Deploy To Railway
-
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Dk143gurjar/Dilkhush&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION,OWNER_USERNAME,SUPPORT_CHANNEL,SUPPORT_GROUP)
+# Owner And Credit
 
 
-### Deploy To Heroku
+<details>
+<summary><b>ᴄʀᴇᴅɪᴛ</b></summary>
+<br>
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Dk143gurjar/Dilkhush)
+## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
+- [Dk](https://t.me/Dk143gurjar)
+- [Dk](https://t.me/Dkgurjar143)
+- [ʏᴜᴋᴋɪ](https://github.com/NotReallyShikhar)
 
+</details>
 
+<details>
+<summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
+<br>
 
-### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/Education_quiz_hub"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/Dk_music_shayari"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+# ❤️ Support
+<a href="https://t.me/Dk_music_shayari"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/Education_quiz_hub"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Dk143gurjar"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="https://t.me/DAUSA_123"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
 
-## 🎗 Project assistance
-
-If you want to say **thank you** or/and support active development of DKMUSIC:
-
-- Add a [GitHub Star](https://github.com/DK143GURJAR/DILKHUSH) to the project.
-- Fork the Repo :)
-- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
-
-Together, we can make 𝐃𝐤𝐦𝐮𝐬𝐢𝐜 **better**!
-
-
-## ⚠️ Security
-
-𝐃𝐤𝐦𝐮𝐬𝐢𝐜 follows good practices of security, but 100% security cannot be assured. Dkmusic is provided **"as is"** without any **warranty**. Use at your own risk.
-
-For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
+</details>
 
 
-## 🗂 License
+## ᴀᴄᴋɴᴏᴡʟᴇᴅɢᴇᴍᴇɴᴛs
 
-This project is licensed under the **MIT License v3**. All designs were created by [@Dk143gurjar](https://github.com/Dk143gurjar) .
-
-See [LICENSE](../LICENSE) for more information.
-
-## 📑 Acknowledgement
-
-Special thanks to these amazing projects/people which/who help power 𝐃𝐊𝐌𝐔𝐒𝐈𝐂:
+sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ ᴛʜᴇsᴇ ᴀᴍᴀᴢɪɴɢ ᴘʀᴏᴊᴇᴄᴛs/ᴘᴇᴏᴘʟᴇ ᴡʜɪᴄʜ/ᴡʜᴏ ʜᴇʟᴘᴇᴅ ʜᴇʀᴏ ᴍᴜsɪᴄs ʙᴏᴛ:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 - [CallsMusic Team](https://github.com/Callsmusic)
 - [TheHamkerCat](https://github.com/TheHamkerCat)
 - [Charon Baglari](https://github.com/XCBv021)
-
-
-Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
