@@ -3,7 +3,7 @@
 #
 # This file is part of < https://github.com/Dk143gurjar/Dilkhush> project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/Dk143gurjar/Dilkhush/mains/LICENSE >
+# Please see < https://github.com/Dk143gurjar/Dilkhush/mains/LICENCE>
 #
 # All rights reserved.
 
@@ -23,9 +23,6 @@ API_HASH = getenv("API_HASH")
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-# Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "60")
@@ -36,30 +33,19 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )  # Remember to give value in Minutes
 
-# You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
-
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
-)  # Input type must be interger
-
-# Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-
-# You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+)  # Input type must be interest
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Dk143gurjar/Dilkhush",
-)
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
-
+) 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -70,9 +56,6 @@ SUPPORT_CHANNEL = getenv(
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
 )  # Example:- https://t.me/Education_quiz_hub
-
-# Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -106,9 +89,6 @@ GITHUB_REPO = getenv("GITHUB_REPO", None)
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-# Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
-
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
 
@@ -127,14 +107,10 @@ TG_AUDIO_FILESIZE_LIMIT = int(
     getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600")
 )  # Remember to give value in bytes
 
-TG_VIDEO_FILESIZE_LIMIT = int(
-    getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824")
-)  # Remember to give value in bytes
-
 # Chceckout https://www.gbmb.org/mb-to-bytes  for converting mb to bytes
 
 
-# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
+# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot Any string bot
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -185,11 +161,6 @@ STATS_IMG_URL = getenv(
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
     "assets/Audio.jpeg",
-)
-
-TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -330,15 +301,6 @@ if YOUTUBE_IMG_URL:
         if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
-            )
-            sys.exit()
-
-
-if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "assets/Video.jpeg":
-        if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
-            print(
-                "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
             )
             sys.exit()
 
