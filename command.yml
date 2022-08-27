@@ -21,7 +21,7 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAY_COMMAND : ["play", "playforce"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
@@ -32,8 +32,8 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video"]
+QUEUE_COMMAND : ["queue", "player", "playing"]
+SONG_COMMAND : ["song"]
 LYRICS_COMMAND : ["lyrics"]
 
 
@@ -41,15 +41,15 @@ LYRICS_COMMAND : ["lyrics"]
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
-SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
+PAUSE_COMMAND : ["pause"]
+RESUME_COMMAND : ["resume"]
+MUTE_COMMAND : ["mute"]
+UNMUTE_COMMAND : ["unmute"]
+STOP_COMMAND : ["stop", "cstop"]
+SKIP_COMMAND : ["skip"]
+SHUFFLE_COMMAND : ["shuffle"]
+LOOP_COMMAND : ["loop"]
+SEEK_COMMAND : ["seek", "seekback", "cseekback"]
 RESTART_COMMAND : ["restart"]
 
 # Sudo Users Commaands
@@ -66,10 +66,6 @@ BROADCAST_COMMAND : ["broadcast"]
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
 WHITELISTCHAT_COMMAND : ["whitelistchat"]
 BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
-
-# Video Calls Command
-VIDEOLIMIT_COMMAND : ["set_video_limit"]
-VIDEOMODE_COMMAND : ["videomode"]
 
 #Mantenance
 MAINTENANCE_COMMAND : ["maintenance"]
@@ -104,7 +100,6 @@ SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
 ACTIVEVC_COMMAND : ["activevoice"]
-ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
