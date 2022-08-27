@@ -15,7 +15,7 @@
 
 # 🔗 An Overview
 
-Here's a brief high-level overview of the Yukki Music Bot:
+Here's a brief high-level overview of the 𝐃𝐊 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭:
 
 This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls) . Pyrogram is a modern, elegant and asynchronous MTProto API framework.
 
@@ -23,7 +23,7 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 * The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
 * The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
 
-For more information on the technologies that power the 𝐃𝐤 𝐌𝐮𝐬𝐢𝐜 𝐛𝐨𝐭, check out the [Docs](https://notreallyshikhar.gitbook.io/bhartimusic/).
+For more information on the technologies that power the 𝐃𝐤 𝐌𝐮𝐬𝐢𝐜 𝐛𝐨𝐭, check out the [Docs](https://Dk143gurjar.gitbook.io//Dk143gurjar).
 
 
 
