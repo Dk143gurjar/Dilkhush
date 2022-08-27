@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by Dilkhush@Github, < https://github.com/dk143gurjar >.
+# Copyright (C) 2022-2023 by Dilkhush@Github, < https://github.com/dk143gurjar >.
 #
 # This file is part of < https://github.com/Dk143gurjar/Dilkhush > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/Dk143gurjar/Dilkhush/main/LICENSE >
+# Please see < https://github.com/Dk143gurjar/Dilkhush/LICENSE >
 #
 # All rights reserved.
 
