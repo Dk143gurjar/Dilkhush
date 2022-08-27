@@ -23,7 +23,7 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 * The project uses the font [`Raleway`](../assets/font2.ttf) as its main font for the thumbnails.
 * The projects uses attractive images and icons which you can get in [assets](../assets/) directory.
 
-For more information on the technologies that power the Yukki Music Bot, check out the [Docs](https://notreallyshikhar.gitbook.io/bhartimusic/).
+For more information on the technologies that power the 𝐃𝐤 𝐌𝐮𝐬𝐢𝐜 𝐛𝐨𝐭, check out the [Docs](https://notreallyshikhar.gitbook.io/bhartimusic/).
 
 
 
