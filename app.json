@@ -31,15 +31,15 @@
           
        
         "OWNER_USERNAME": {
-          "description": "PUT UR USERNAME HERE WITHOU @ LIKE VENOMxCRAZY",
+          "description": "PUT UR USERNAME HERE WITHOU @ LIKE DK143GURJAR",
           "required": true
         },
         "SUDO_USERS": {
-          "description": "PUT UR TELEGRAM ID HERE GET IT FROM @ALICIAOP_BOT",
+          "description": "PUT UR TELEGRAM ID HERE",
           "required": true
         },
         "STRING_SESSION": {
-            "description": "enter pyrogram string get it from @venomstring_bot",
+            "description": "enter pyrogram string get it from any stringbot",
             "required": true
         }
     },
