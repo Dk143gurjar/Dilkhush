@@ -46,13 +46,6 @@ For more information on the technologies that power the 𝐃𝐤 𝐌𝐮𝐬�
 - [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
 
 
-## 🖇 Generating Pyrogram String Session
-
-- Generate a Pyrogram String Session via [Replit](https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen)
-
-- Generate a Pyrogram String Session via [Telegram String Generation Bot](Any bots)
-
-
 ## 🖇 Heroku
 ### Deploy To Railway
 
