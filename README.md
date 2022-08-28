@@ -15,7 +15,7 @@
 
 > ⭐️ Thanks to everyone for using Dk music Server, That is the greatest pleasure we have !
 
-### DK– History This Bot Is Clone On [Team yukki](https://github.com/TeamYukki)
+### DK– History This Bot Is Clone On [Team yukki](https://github.com/Dk143gurjar)
 
 ## Features ❤️”®
 
@@ -59,7 +59,7 @@
 > ᴛʜᴏsᴇ ᴛᴡᴏ ᴠᴀʀs ᴀʀᴇ ɴᴏᴛ ᴍᴀɴᴅᴀᴛᴏʀʏ, ʏᴏᴜ ᴄᴀɴ ʟᴇᴀᴠᴇ ᴛʜᴇᴍ ʙʟᴀɴᴋ ᴛᴏᴏ. 
     
 <h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ʏᴜᴋᴋɪ ᴏɴ ʜᴇʀᴏᴋᴜ</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/lokeshdausa452/bhartimusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Dk143gurjar/bharatimusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 </details>
 
