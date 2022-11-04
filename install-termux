@@ -1,1 +1,29 @@
-install-termux
+#!/usr/bin/env bash
+
+# Dk143gurjar - Dilkhush
+
+# Copyright (C) 2021-2022 Dk_music_shayari
+
+#
+
+# This file is a part of < https://github.com/DK143GURJAR/Dilkhush/ >
+
+# PLease read the GNU Affero General Public License in <https://www.github.com/DK143GURJAR/Dilkhush/LICENSE/>.
+
+if [ -d "resources" ]
+
+then
+
+    echo "Current directory Identified.."
+
+else
+
+    apt install git -y
+
+    git clone https://github.com/DK143GURJAR/Dilkhush
+
+    cd DK143GURJAR
+
+fi
+
+bash resources/startup/termux.sh
