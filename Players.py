@@ -1,4 +1,4 @@
-# 𝗗𝗞 𝗠𝗨𝗦𝗜𝗖// @Dk143gurjar
+# DK MUSIC // @DK143GURJAR
 
 import os
 import aiofiles
@@ -44,8 +44,8 @@ def transcode(filename):
 
 # Convert seconds to mm:ss
 def convert_seconds(seconds):
-    seconds = seconds % (24 * 4600)
-    seconds %= 4600
+    seconds = seconds % (24 * 3600)
+    seconds %= 3600
     minutes = seconds // 60
     seconds %= 60
     return "%02d:%02d" % (minutes, seconds)
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: 𝗗𝗞 𝗠𝗨𝗦𝗜𝗖 (@Dk143gurjar)",
+        f"Powered By: DK MUSIC  (@DK_MUSIC_SHAYARI)",
         (255, 255, 255),
         font=font,
     )
@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 𝐩𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 𝐛𝐚𝐛𝐲🎸🎸...**")
+    lel = await message.reply("**𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐒𝐨𝐧𝐠 🎸🎸...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -117,7 +117,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Dk143gurjar"
+        user.first_name = "DK_MUSIC_Player"
     usar = user
     wew = usar.id
     try:
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{OWNER_USERNAME}...**")
+                        f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{DK143GURJAR}...**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{OWNER_USERNAME} ❤️...**")
+            f"**𝐏𝐥𝐞𝐚𝐬𝐞 𝐀𝐝𝐝 𝐌𝐲 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐦𝐚𝐧𝐮𝐥𝐥𝐲 𝐨𝐫 𝐜𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 @{Dk143gurjar} ❤️...**")
         return
     
     audio = (
@@ -164,7 +164,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg"
+        thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -223,7 +223,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg"
+            thumb_name = "https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -249,9 +249,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
+                "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐁𝐚𝐛𝐲 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
             )
-        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫🩸...**")
+        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫 𝐏𝐥𝐳 𝐖𝐚𝐢𝐭 𝐁𝐚𝐛𝐲🩸...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -339,7 +339,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg", 
+                             photo="https://te.legra.ph/file/d1b8c412b0873b6fe1abc.png", 
                              caption="**𝐏𝐚𝐮𝐬𝐞𝐝⏸...**"
     )
 
@@ -418,6 +418,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg",
+                              photo="https://te.legra.ph/file/d4094ea0b4f1d94ed2932.png",
                               caption="**𝐑𝐞𝐥𝐨𝐝𝐞𝐝....**"
     )
