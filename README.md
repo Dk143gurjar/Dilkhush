@@ -1,6 +1,6 @@
 <h1 align="center"><b>❤️ 𝗗𝗞 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 ❤️</b></h1>
 
-<h4 align="center">DK Music Is A Part Of DKMUSIC Bot Which Is A Powerful, Smart And Simple Bot To Play Audio In Telegram<br> ...All Credit Goes To Team Yukki...</h4>
+<h4 align="center">DK Music Is A Part Of DKMUSIC Bot Which Is A Powerful, Smart And Simple Bot To Play Audio In Telegram<br> ...All Credit Goes To Dkmusic...</h4>
 
 <p align="center"><a href="https://t.me/DK143GURJAR"><img src="https://te.legra.ph/file/e4ea0da1ac29a9a65f13f.jpg" width="400"></a></p>
 
@@ -15,7 +15,7 @@
 
 > ⭐️ Thanks to everyone for using Dk music Server, That is the greatest pleasure we have !
 
-### DK– History This Bot Is Clone On [Team yukki](https://github.com/Dk143gurjar)
+### DK– History This Bot Is Clone On [Dkmusic](https://github.com/Dk143gurjar)
 
 ## Features ❤️”®
 
