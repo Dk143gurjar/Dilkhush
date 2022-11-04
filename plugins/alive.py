@@ -1,87 +1,77 @@
-import asyncio
-from time import time
-from datetime import datetime
-from modules.helpers.filters import command
-from modules.helpers.command import commandpro
-from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from modules.config import OWNER_USERNAME, SUPPORT_GROUP, SUPPORT_CHANNEL
+#
+# Copyright (C) 2021-2022 by Dk143gurjar@Github, < https://github.com/Dk143gurjar/Dilkhush >.
+#
+# This file is part of < https://github.com/Dk143gurjar/Dilkhush > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/Dk143gurjar/Dilkhush/blob/main/LICENSE >
+#
+# All rights reserved.
 
-START_TIME = datetime.utcnow()
-START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
-TIME_DURATION_UNITS = (
-    ('week', 60 * 60 * 24 * 7),
-    ('day', 60 * 60 * 24),
-    ('hour', 60 * 60),
-    ('min', 60),
-    ('sec', 1)
-)
+from pyrogram import filters
 
-async def _human_time_duration(seconds):
-    if seconds == 0:
-        return 'inf'
-    parts = []
-    for unit, div in TIME_DURATION_UNITS:
-        amount, seconds = divmod(int(seconds), div)
-        if amount > 0:
-            parts.append('{} {}{}'
-                         .format(amount, unit, "" if amount == 1 else "s"))
-    return ', '.join(parts)
-    
-   
+from config import BANNED_USERS
+from YukkiMusic import YouTube, app
+from YukkiMusic.utils.channelplay import get_channeplayCB
+from YukkiMusic.utils.decorators.language import languageCB
+from YukkiMusic.utils.stream.stream import stream
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
-async def start_(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
-        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
-ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
-...
-━━━━━━━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/Dk143gurjar/Dilkhush"),
-                        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
-                  ],[
-                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
-                ]
-                
-           ]
-        ),
+
+@app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
+@languageCB
+async def play_live_stream(client, CallbackQuery, _):
+    callback_data = CallbackQuery.data.strip()
+    callback_request = callback_data.split(None, 1)[1]
+    vidid, user_id, mode, cplay, fplay = callback_request.split("|")
+    if CallbackQuery.from_user.id != int(user_id):
+        try:
+            return await CallbackQuery.answer(
+                _["playcb_1"], show_alert=True
+            )
+        except:
+            return
+    try:
+        chat_id, channel = await get_channeplayCB(
+            _, cplay, CallbackQuery
+        )
+    except:
+        return
+    video = True if mode == "v" else None
+    user_name = CallbackQuery.from_user.first_name
+    await CallbackQuery.message.delete()
+    try:
+        await CallbackQuery.answer()
+    except:
+        pass
+    mystic = await CallbackQuery.message.reply_text(
+        _["play_2"].format(channel) if channel else _["play_1"]
     )
-    
-    
-@Client.on_message(commandpro(["/start", "/alive", "Dkmusic"]) & filters.group & ~filters.edited)
-async def start(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/55d8a6f1a9b87eaba142f.png",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text=
-                        "ᴊᴏɪɴ ʜᴇʀᴇ", url=f"https://t.me/{SUPPORT_GROUP}")
-                ]
-            ]
-        ),
-    )
-
-
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
-async def help(client: Client, message: Message):
-    await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
-        caption=f"""""",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/Dk143gurjar/Dilkhush")
-                ]
-            ]
-        ),
-    )
+    try:
+        details, track_id = await YouTube.track(vidid, True)
+    except Exception:
+        return await mystic.edit_text(_["play_3"])
+    ffplay = True if fplay == "f" else None
+    if not details["duration_min"]:
+        try:
+            await stream(
+                _,
+                mystic,
+                user_id,
+                details,
+                chat_id,
+                user_name,
+                CallbackQuery.message.chat.id,
+                video,
+                streamtype="live",
+                forceplay=ffplay,
+            )
+        except Exception as e:
+            ex_type = type(e).__name__
+            err = (
+                e
+                if ex_type == "AssistantErr"
+                else _["general_3"].format(ex_type)
+            )
+            return await mystic.edit_text(err)
+    else:
+        return await mystic.edit_text("Not a live stream")
+    await mystic.delete()
