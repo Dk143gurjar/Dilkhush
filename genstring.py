@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/Dk143gurjar/Dilkhush >.
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/Dk143gurjar >.
 #
 # This file is part of < https://github.com/Dk143gurjar/Dilkhush > project,
 # and is released under the "GNU v3.0 License Agreement".
