@@ -60,6 +60,9 @@
     
 <h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴅᴋᴍᴜsɪᴄ ᴏɴ ʜᴇʀᴏᴋᴜ</h4>    
 <p><a href=https://heroku.com/deploy?template=https://github.com/Dk143gurjar/VENOMxOPxMUSIC><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
+
+</details>
 ### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʀᴀɪʟᴡᴀʏ
   
   <p align="center"><a href="https://railway.app/deploy?template=https://github.com/dk143grjar/Railway"> <img src="https://img.shields.io/badge/Deploy%20To%20Railway-black?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
